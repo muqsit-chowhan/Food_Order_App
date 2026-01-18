@@ -35,6 +35,7 @@ export const AppTabsNavigator: React.FC = () => {
         tabBarStyle: {
           backgroundColor: colors.background,
           borderTopColor: colors.primarySoft,
+          paddingTop: 15,
         },
       }}
     >

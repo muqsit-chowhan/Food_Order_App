@@ -12,13 +12,19 @@ export const ScreenContainer: React.FC<ScreenContainerProps> = ({
   children,
   style,
 }) => (
-  <SafeAreaView style={[styles.container, style]}>{children}</SafeAreaView>
+  <SafeAreaView
+    edges={['left', 'right', 'bottom']}
+    style={[styles.container, style]}
+  >
+    {children}
+  </SafeAreaView>
 );
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 24,
+    paddingHorizontal: 24,
+    paddingTop:20,
     backgroundColor: colors.background,
   },
 });

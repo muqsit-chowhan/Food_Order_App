@@ -48,7 +48,7 @@ export const FoodListScreen: React.FC<FoodListScreenProps> = ({
 const styles = StyleSheet.create({
   container: {
     backgroundColor: colors.background,
-    paddingTop: 0,
+    paddingTop: 20,
   },
   subheading: {
     marginTop: 6,

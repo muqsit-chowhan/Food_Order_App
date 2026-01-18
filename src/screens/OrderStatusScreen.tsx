@@ -57,6 +57,7 @@ export const OrderStatusScreen: React.FC = () => {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: colors.background,
+    paddingTop: 40,
   },
   title: {
     fontSize: 24,
